@@ -1,0 +1,32 @@
+{
+    "name": "phpingguo/uzuki-xml",
+    "description": "Xml generator engine library.",
+    "license": "MIT",
+    "keywords": [
+        "xml",
+        "xml generator",
+        "xml response"
+    ],
+    "homepage": "https://github.com/phpingguo/uzuki-xml",
+    "authors": [
+        {
+            "name" : "Uzuki XML Contributors",
+            "homepage": "https://github.com/phpingguo/uzuki-xml/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phpingguo/citron-di": "dev-develop",
+        "phpingguo/apricot-lib": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpingguo\\UzukiXml\\": "src/",
+            "Phpingguo\\UzukiXml\\Tests\\": "tests/src/"
+        }
+    }
+}

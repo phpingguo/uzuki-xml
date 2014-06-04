@@ -16,7 +16,6 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "phpingguo/citron-di": "dev-develop",
         "phpingguo/apricot-lib": "dev-develop"
     },
     "require-dev": {

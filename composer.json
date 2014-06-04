@@ -16,7 +16,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "phpingguo/apricot-lib": "dev-develop"
+        "phpingguo/apricot-lib": "dev-develop",
+        "phpingguo/citron-di": "dev-develop"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",

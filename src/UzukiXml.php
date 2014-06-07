@@ -4,9 +4,10 @@ namespace Phpingguo\UzukiXml;
 use Phpingguo\ApricotLib\Common\Arrays;
 use Phpingguo\ApricotLib\Common\String;
 use Phpingguo\ApricotLib\Enums\Charset;
+use Phpingguo\CitronDI\AuraDIWrapper;
 
 /**
- *
+ * XMLデータを生成してレンダリング出力するクラスです。
  *
  * @final [継承禁止クラス]
  * @author hiroki sugawara
@@ -68,9 +69,12 @@ final class UzukiXml
      */
     private function getNewDomDocument()
     {
-        return new \DomDocument(
-            $this->getOption(static::OPTION_VERSION),
-            $this->getOption(static::OPTION_CHARSET)
+        return AuraDIWrapper::getInstantContainer()->newInstance(
+            'DomDocument',
+            [
+                $this->getOption(static::OPTION_VERSION),
+                $this->getOption(static::OPTION_CHARSET)
+            ]
         );
     }
 

@@ -1,7 +1,7 @@
 <?php
-namespace Phpingguo\UzukiXml\Tests;
+namespace Phpeel\UzukiXml\Tests;
 
-use Phpingguo\UzukiXml\UzukiXml;
+use Phpeel\UzukiXml\UzukiXml;
 
 class UzukiXmlTest extends \PHPUnit_Framework_TestCase
 {

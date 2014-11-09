@@ -1,10 +1,10 @@
 <?php
-namespace Phpingguo\UzukiXml;
+namespace Phpeel\UzukiXml;
 
-use Phpingguo\ApricotLib\Common\Arrays;
-use Phpingguo\ApricotLib\Common\String;
-use Phpingguo\ApricotLib\Enums\Charset;
-use Phpingguo\CitronDI\AuraDIWrapper;
+use Phpeel\ApricotLib\Common\Arrays;
+use Phpeel\ApricotLib\Common\String;
+use Phpeel\ApricotLib\Enums\Charset;
+use Phpeel\CitronDI\AuraDIWrapper;
 
 /**
  * XMLデータを生成してレンダリング出力するクラスです。
